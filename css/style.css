@@ -4,18 +4,15 @@
 }
 body{
    background-color: lightgrey;
+   font-family: cursive;
 }
 #container{
-    font-family: cursive;
+    
     background: url(../images/banner4.png);
     width: 100%;
     height: 300px;
     background-size: cover;
     background-color: lightgrey;
-}
-#navbar{
-   
-    height: 100px;
 }
 
 #logoimg{
@@ -62,7 +59,6 @@ body{
 }
 
 #aboutus{
-    
     margin-top: 20px;
     display: flex;
 }
@@ -168,7 +164,129 @@ body{
      margin-top: 40px;
  }
 
+ #social ul li{
+    list-style-type: none;
+ }
+
  #footer{
      text-align: center;
-     font-style: italic;
+    
+ }
+
+ @media(max-width:720px){
+   
+    #logoimg{
+       float: none;
+        width: 100px;
+        height: 100px;
+        margin-left: 10px;
+        margin: auto;
+    }
+    #menu{
+        float: none;
+        text-align: center;
+    }
+    #menu ul{
+        list-style-type: none;
+       
+        text-align: center;
+    }
+
+    #menu ul a{
+        text-decoration: none;
+    }
+
+    #menu ul li{
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+        padding: 10px;
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: bold;
+        background-color: white;
+    }
+
+    #aboutus{
+        margin-top: 5px;
+        display: block;
+        text-align: center;
+    }
+    #aboutimg{
+        width: 200px;
+        height: 200px;
+        margin: auto;
+        padding-top: 10px;
+        padding-left: 0;
+    }
+    
+    #aboutimg img{
+        width: 100%;
+        height: 200px;
+        
+        
+    }
+    
+    #aboutp{
+        margin-top: 10px;
+        padding: 20px;
+        
+    }
+
+    #feedback1{
+        display: block;
+        width: 90%;
+        justify-content: none;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    #feedback2{
+        display: none;
+    }
+    
+    .review1{
+       width: 100%;
+       padding-bottom: 20px;
+       margin: 0;
+    }
+    
+    .review1 img{
+        border-radius: 20px;
+        margin-right: 0;
+        width: 100%;
+        height: 200px;
+    }
+    
+    #feedh2{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    #contactsection{
+        display: block;
+        text-align: center;
+        
+    }
+     #form{
+        text-align: center;
+         margin: 0;
+         margin-top: 10px;
+     }
+    
+    
+     #social{
+         margin-top: 40px;
+         
+     }
+
+     #social ul li{
+        list-style-type: none;
+     }
+
+     #social ul li a{
+         color: black;
+         text-decoration: none;
+     }
+   
  }
