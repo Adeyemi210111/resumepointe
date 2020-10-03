@@ -74,16 +74,10 @@
 
     <section id="contactsection">
         <div id="form">
-        
         <form action="" id="contactus">
             <h2>Contact Us</h2>
-        <small>Please fill the form below to contact us</small>
-            <input type="text" placeholder="FirstName"><br>
-            <input type="text" placeholder="LastName"><br>
-            <input type="email" placeholder="Email"><br>
-            <label for="">Upload your CV</label><br>
-            <input type="file"><br>
-            <button>Submit</button>
+            <small>Please click the link below to Send us an email</small> <br>
+            <button id="submit"><a class="mailtoui" href="mailto:contactus@resumepointe.com?subject=Resume%20Writing">Send Mail</a></button>
         </form>
     </div>
     <div id="social">
@@ -102,5 +96,8 @@
             <small>&copy; copyright 2020, code by Adeyemi Tobi</small>
         </footer>
     </section>
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mailtoui@1.0.3/dist/mailtoui-min.js"></script>
 </body>
 </html>
